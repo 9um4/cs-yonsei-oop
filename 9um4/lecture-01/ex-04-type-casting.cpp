@@ -6,8 +6,8 @@ int main() {
     double b;
     b = static_cast<double>(a) / 7;
 
-    cout << "명시적 형변환 : " << b << endl
-         << "암시적 형변환 : " << 2 / 3.4 << endl;
+    cout << "Explicit type casting : " << b << endl
+         << "Implicit type casting : " << 2 / 3.4 << endl;
          
     return 0;
 }
